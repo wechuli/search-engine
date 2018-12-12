@@ -1,0 +1,25 @@
+{
+  "name": "search-engine",
+  "version": "1.0.0",
+  "description": "google style search and analytics engine built with ellasticsearch, node and react",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wechuli/search-engine.git"
+  },
+  "author": "Wechuli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wechuli/search-engine/issues"
+  },
+  "homepage": "https://github.com/wechuli/search-engine#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "elasticsearch": "^15.2.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
